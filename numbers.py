@@ -11,7 +11,7 @@ def main():
     counter = 0
 
     # Process & Output
-    print("Here are all the valid RGB values:")
+    print("Here are all integers 1000 to 2000:")
     print("")
 
     for counter in range(1000, 2001):
@@ -19,9 +19,8 @@ def main():
             if counter == 2000:
                 print("2000")
             else:
-                print("{0} {1} {2} {3} {4}"
-                      .format(counter, counter + 1, counter + 2, counter + 3,
-                              counter + 4))
+                print(counter, counter + 1, counter + 2, counter + 3,
+                      counter + 4)
 
 
 if __name__ == "__main__":
